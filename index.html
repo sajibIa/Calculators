@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <section>
+        <h1>Calculator</h1>
+        <div class="main">
+            <input type="text" class="display" id="myvalue" placeholder="0"></input>
+            <div id="show"></div>
+            <div class="buttons">
+                <input type="button" class="button" value="AC" onclick="del()">
+                <input type="button" class="button" value="&larr;">
+                <input type="button" class="button" value="0" onclick="cul('0')">
+                <input type="button" class="button" value="/" onclick="cul('/')">
+                <input type="button" class="button" value="7" onclick="cul('7')">
+                <input type="button" class="button" value="8" onclick="cul('8')">
+                <input type="button" class="button" value="9" onclick="cul('9')">
+                <input type="button" class="button" value="*" onclick="cul('*')">
+                <input type="button" class="button" value="4" onclick="cul('4')">
+                <input type="button" class="button" value="5" onclick="cul('5')">
+                <input type="button" class="button" value="6" onclick="cul('6')">
+                <input type="button" class="button" value="-" onclick="cul('-')">
+                <input type="button" class="button" value="1" onclick="cul('1')">
+                <input type="button" class="button" value="2" onclick="cul('2')">
+                <input type="button" class="button" value="3" onclick="cul('3')">
+                <input type="button" class="button" value="+" onclick="cul('+')">
+                <input type="button" class="button" value="(">
+                <input type="button" class="button" value=")">
+                <input type="button" class="button" value="." onclick="cul('.')">
+                <input type="button" class="button" value="Enter" onclick="work()">
+            </div>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
